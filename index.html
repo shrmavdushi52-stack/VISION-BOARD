@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Digital Vision Board</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="vb-root">
+   
+    <header class="vb-header">
+      <div>
+        <h1 class="vb-title">My Vision Board</h1>
+        <p class="vb-subtitle" id="card-count">0 goals pinned</p>
+      </div>
+    <button class="btn primary" id="add-btn">+ Add Goal</button>
+    </header>
+
+    <nav class="category-tabs" id="tabs"></nav>
+
+    <main class="grid" id="grid"></main>
+  </div>
+
+  <div id="modal-root"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
